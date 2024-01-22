@@ -1,9 +1,9 @@
 // Test JS -------------------------------------------------------------------------
-import './style.css';
-import TestIcon from './images/testJSicon.png';
-import {changeButton} from "./components/functions";
+import "./style.css";
+import TestIcon from "./images/testJSicon.png";
+import { changeButton } from "./components/functions";
 //Text Test
-const element = document.createElement("div")
+const element = document.createElement("div");
 element.classList.add("test-JS-text");
 element.innerText = "JS Test Text - I am 2rem, bold and blue";
 document.body.appendChild(element);
@@ -18,4 +18,3 @@ elementImage.appendChild(myImage);
 // Button Test
 changeButton();
 // --------------------------------------------------------------------------------
-
